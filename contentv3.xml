@@ -1,0 +1,3361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addAccessibilityToolbar"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_addSearchBox"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_exportElp"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_fieldValidationInfo"></string>
+  <dictionary>
+   <unicode role="key" value="all"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_title"></unicode>
+     <unicode value="pp_lang"></unicode>
+     <unicode value="pp_description"></unicode>
+     <unicode value="pp_author"></unicode>
+     <unicode value="pp_newlicense"></unicode>
+    </list>
+   </dictionary>
+   <unicode role="key" value="procomun"></unicode>
+   <dictionary>
+    <unicode role="key" value="mandatory_fields"></unicode>
+    <list>
+     <unicode value="pp_learningResourceType"></unicode>
+    </list>
+    <unicode role="key" value="values_from_list"></unicode>
+    <dictionary>
+     <unicode role="key" value="pp_learningResourceType"></unicode>
+     <list>
+      <unicode value="master class"></unicode>
+      <unicode value="closed exercise or problem"></unicode>
+      <unicode value="real project"></unicode>
+      <unicode value="didactic game"></unicode>
+      <unicode value="webquest"></unicode>
+      <unicode value="open problem"></unicode>
+      <unicode value="simulation"></unicode>
+      <unicode value="questionnaire"></unicode>
+      <unicode value="conceptual map"></unicode>
+     </list>
+    </dictionary>
+   </dictionary>
+  </dictionary>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tópico"></unicode>
+   <unicode value="Tema"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="CreativeCommons"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="11"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="7"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="4">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Todo lo que siempre quiso saber sobre las licencias CC y nadie le explicó"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="3">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="1"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="1"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="buttonCaption"></string>
+          <string value=""></string>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id6&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta6_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+Los trabajos finales realizados por los
+profesores en los cursos en línea están generando una gran
+cantidad de recursos educativos de diferentes tipos: webquest,
+miniquest, caza tesoros,  JClic, Hotpotatoes, unidades didácticas,
+artículos de divulgación científica, proyectos TIC, etc. Conforme se van
+realizando ediciones de los cursos, esta biblioteca de recursos se
+está incrementando y si los compartimos, nos beneficiaríamos todos.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id7&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta7_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;table align=&quot;center&quot; border=&quot;0&quot; width=&quot;200&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt; &lt;img src=&quot;resources/pegatina_cc.jpg&quot; title=&quot;Logos de Creative Commons&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; &lt;span class=&quot;flickr-caption&quot;&gt;&lt;a href=&quot;http://www.flickr.com/photos/impulsenet/157950999/&quot;&gt;Pegatinas Creative Commons&lt;/a&gt;.&lt;/span&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id8&quot;&gt;
+&lt;div align=&quot;justify&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div align=&quot;justify&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ta8_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;div align=&quot;justify&quot;&gt;
+&lt;/div&gt;
+&lt;p align=&quot;justify&quot;&gt;
+Una posibilidad es, tal y como se ha
+comentado en las sesiones presenciales, que los trabajos realizados
+durante el curso serán alojados en un sitio web para su acceso
+público. Con el fin de proteger los derechos de autor, reconocidos por la ley
+de propiedad intelectual, se recomienda que los trabajos sean publicados bajo una
+licencia &amp;quot;&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot;&gt;Reconocimiento-No
+comercial-Compartir bajo la misma licencia 3.0 España&lt;/a&gt;&amp;quot;.
+&lt;/p&gt;
+&lt;p&gt;
+Para ello es necesario que los trabajos
+sean originales y que los elementos multimedia incluidos respeten los
+derechos de autor. 
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p align=&quot;justify&quot;&gt;
+&lt;i&gt;&lt;b&gt;Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por: &lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&amp;quot;José Cuerva Moreno&amp;quot;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0pt&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;br /&gt;
+Departamento de TIC.
+&lt;br /&gt;
+&lt;b&gt;CRIF &amp;quot;Las Acacias&amp;quot;.&lt;/b&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list>
+             <instance class="exe.engine.galleryidevice.GalleryImage">
+              <dictionary>
+               <string role="key" value="_caption"></string>
+               <instance class="exe.engine.field.TextField">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <int value="238"></int>
+                 <string role="key" value="_idevice"></string>
+                 <none></none>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="content"></string>
+                 <string value=""></string>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                </dictionary>
+               </instance>
+               <string role="key" value="_id"></string>
+               <unicode value="0_1.1"></unicode>
+               <string role="key" value="_imageResource"></string>
+               <instance class="exe.engine.resource.Resource" reference="5">
+                <dictionary>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="1"></reference>
+                 <string role="key" value="_package"></string>
+                 <reference key="2"></reference>
+                 <string role="key" value="_storageName"></string>
+                 <string value="pegatina_cc.jpg"></string>
+                 <string role="key" value="_userName"></string>
+                 <string value="/tmp/tmp_zNRvN/pegatina_cc.jpg"></string>
+                 <string role="key" value="checksum"></string>
+                 <string value="21ce5aa9dec68d1bb2daa34fb80d2984"></string>
+                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="warningMsg"></string>
+                 <string value=""></string>
+                </dictionary>
+               </instance>
+               <string role="key" value="_parent"></string>
+               <reference key="3"></reference>
+               <string role="key" value="_thumbnailResource"></string>
+               <none></none>
+               <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+               <int value="3"></int>
+               <string role="key" value="makeThumbnail"></string>
+               <bool value="0"></bool>
+              </dictionary>
+             </instance>
+            </list>
+            <string role="key" value="idevice"></string>
+            <reference key="3"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="2"></int>
+          <string role="key" value="parentNode"></string>
+          <reference key="4"></reference>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="parentNode"></string>
+        <reference key="4"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list>
+         <reference key="5"></reference>
+        </list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="2"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="website"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Todo%20lo%20que%20siempre%20quiso%20saber%20sobre%20las%20licencias%20CC%20y%20nadie%20le%20explic%C3%B3"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="8">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="¿Qué son las licencias Creative Commons?"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="7">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="6"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="
+"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="7"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="8"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="9">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="10">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="9"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id11&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta11_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;resources/CC.jpg&quot; title=&quot;Licencias Creative Commons&quot; width=&quot;618&quot; height=&quot;257&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id9&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta9_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ta9_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+Las licencias
+Creative Commons nacieron en Estados Unidos en el año 2002 y son un
+conjunto de textos legales creados con el objetivo de que los autores
+pudieran ceder algunos derechos sobre sus obras y se reservaran otros.&lt;br /&gt;
+&lt;br /&gt;
+Como se comenta en el sitio web de Creative Commons España (&lt;a href=&quot;http://es.creativecommons.org/proyecto/&quot; target=&quot;_blank&quot;&gt;http://es.creativecommons.org/proyecto/&lt;/a&gt;):&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ta9_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;blockquote&gt;
+	&lt;i&gt; El proyecto CC España se inició en febrero del año
+	2003 cuando la Universidad de Barcelona decide buscar un sistema para
+	publicar material docente siguiendo el ejemplo del Massachusets
+	Institute of Technology. Se decide optar por el sistema de licencias de
+	Creative Commons y se establece un acuerdo de trabajo por el cual la UB
+	lideraría el proyecto de adaptación de las licencias al Estado Español
+	en castellano y catalán. En febrero del año 2004 se abre una lista de
+	discusión sobre las licencias donde participa mucha gente. A partir del
+	dia 1 de octubre de 2004 las licencias de Creative Commons adaptadas a
+	la legislación sobre propiedad intelectual del Estado Español están
+	disponibles para todos en castellano y catalán.&lt;/i&gt;&lt;br /&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+XALABARDER, Raquel (2006) comenta que las licencias CC no son contrarias al &lt;i&gt;copyright&lt;/i&gt;,
+de hecho se basan, precisamente, en el régimen de la propiedad
+intelectual: sin esta &amp;quot;propiedad&amp;quot; reconocida previamente por la ley,
+los autores no podrían otorgarlas.
+&lt;/p&gt;
+&lt;p&gt;
+Poner vuestras obras bajo una licencia Creative Commons no significa que no tengan &lt;i&gt;copyright&lt;/i&gt;. Este tipo de licencias ofrecen algunos derechos a terceras personas bajo ciertas condiciones.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ta9_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id13&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta13_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+1. [XALABARDER,
+Raquel (2006). «Las licencias Creative Commons: ¿una alternativa al
+&lt;i&gt;copyright&lt;/i&gt;?».
+&lt;i&gt;UOC
+Papers &lt;/i&gt;[artículo
+en línea]. N.º 2. UOC. [Fecha de consulta: 19/10/2009].
+&amp;lt;&lt;a href=&quot;http://www.uoc.edu/uocpapers/2/dt/esp/xalabarder.pdf&quot; target=&quot;_blank&quot;&gt;http://www.uoc.edu/uocpapers/2/dt/esp/xalabarder.pdf&lt;/a&gt;&amp;gt;]
+&lt;/div&gt;
+&lt;div id=&quot;ta13_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+ 
+&lt;/div&gt;
+&lt;div id=&quot;ta13_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ta13_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;hr /&gt;
+&lt;p align=&quot;justify&quot;&gt;
+&lt;i&gt;&lt;b&gt;Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por: &lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&amp;quot;José Cuerva Moreno&amp;quot;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0pt&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;br /&gt;
+Departamento de TIC.
+&lt;br /&gt;
+&lt;b&gt;CRIF &amp;quot;Las Acacias&amp;quot;.&lt;/b&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="249"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="2_1.1"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="11">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="9"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="CC.jpg"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/CC.jpg"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="ec46f402f3683da3c8d47c8e3e1d9d52"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="10"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+               </list>
+               <string role="key" value="idevice"></string>
+               <reference key="10"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="2"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="8"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="11"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Todo%20lo%20que%20siempre%20quiso%20saber%20sobre%20las%20licencias%20CC%20y%20nadie%20le%20explic%C3%B3:%C2%BFQu%C3%A9%20son%20las%20licencias%20Creative%20Commons%3F"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tipos de licencias Creative Commons"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="13">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="12"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value=""></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="13"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="14"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="15">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="16">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="15"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="
+&lt;p&gt;
+Poner vuestras obras bajo una licencia Creative Commons no significa que no tengan &lt;i&gt;copyright&lt;/i&gt;. Este tipo de licencias ofrecen algunos derechos a terceras personas bajo ciertas condiciones. ¿Qué condiciones? Esta web (&lt;a href=&quot;http://es.creativecommons.org/licencia/&quot;&gt;http://es.creativecommons.org/licencia/&lt;/a&gt;) os ofrece escoger o unir las condiciones de la siguiente lista. Hay un total de seis licencias Creative Commons para escoger: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;resources/by.large_petit.png&quot; align=&quot;left&quot; width=&quot;43&quot; height=&quot;43&quot; /&gt;&lt;b&gt;Reconocimiento (Attribution)&lt;/b&gt;: En cualquier explotación de la obra autorizada por la licencia hará falta reconocer la autoría.&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;resources/nc-eu.large_petit.png&quot; align=&quot;left&quot; width=&quot;43&quot; height=&quot;43&quot; /&gt;&lt;b&gt;No Comercial (Non commercial)&lt;/b&gt;: La explotación de la obra queda limitada a usos no comerciales. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;resources/nd.large_petit.png&quot; align=&quot;left&quot; width=&quot;43&quot; height=&quot;43&quot; /&gt;&lt;b&gt;Sin obras derivadas (No Derivate Works)&lt;/b&gt;: La autorización para explotar la obra no incluye la transformación para crear una obra derivada.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;resources/sa.large_petit.png&quot; align=&quot;left&quot; width=&quot;43&quot; height=&quot;43&quot; /&gt;&lt;b&gt;Compartir Igual (Share alike)&lt;/b&gt;: La explotación autorizada incluye la creación de obras derivadas siempre que mantengan la misma licencia al ser divulgadas.
+&lt;/p&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id14&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta14_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+Con estas cuatro condiciones combinadas se pueden generar las seis licencias 3.0 que podemos elegir:
+&lt;/p&gt;
+&lt;table style=&quot;border-color: #b4aca7; border-width: 1px&quot; border=&quot;1&quot; width=&quot;683&quot; height=&quot;242&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt; &lt;img src=&quot;resources/by_petit.png&quot; width=&quot;118&quot; height=&quot;41&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;b&gt; Reconocimiento (by)&lt;/b&gt;:
+			Se permite cualquier explotación de la obra, incluyendo una finalidad
+			comercial, así como la creación de obras derivadas, la distribución de
+			las cuales también está permitida sin ninguna restricción. (&lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/es/&quot; target=&quot;_blank&quot;&gt;http://creativecommons.org/licenses/by/3.0/es/&lt;/a&gt;)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; &lt;img src=&quot;resources/by-nc.eu_petit.png&quot; width=&quot;118&quot; height=&quot;41&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;b&gt; Reconocimiento - NoComercial (by-nc)&lt;/b&gt;:
+			Se permite la generación de obras derivadas siempre que no se haga un
+			uso comercial. Tampoco se puede utilizar la obra original con
+			finalidades comerciales. (&lt;a href=&quot;http://creativecommons.org/licenses/by-nc/3.0/es/&quot; target=&quot;_blank&quot;&gt;http://creativecommons.org/licenses/by-nc/3.0/es/&lt;/a&gt;)&lt;br /&gt;
+			&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; &lt;img src=&quot;resources/by-nc-sa.eu_petit.png&quot; width=&quot;118&quot; height=&quot;41&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;b&gt; Reconocimiento - NoComercial - CompartirIgual (by-nc-sa)&lt;/b&gt;:
+			No se permite un uso comercial de la obra original ni de las posibles
+			obras derivadas, la distribución de las cuales se debe hacer con una
+			licencia igual a la que regula la obra original. (&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; target=&quot;_blank&quot;&gt;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&lt;/a&gt;)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; &lt;img src=&quot;resources/by-nc-nd.eu_petit.png&quot; width=&quot;118&quot; height=&quot;41&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;b&gt; Reconocimiento - NoComercial - SinObraDerivada (by-nc-nd)&lt;/b&gt;: No se permite un uso comercial de la obra original ni la generación de obras derivadas.(&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-nd/3.0/es/&quot; target=&quot;_blank&quot;&gt;http://creativecommons.org/licenses/by-nc-nd/3.0/es/&lt;/a&gt;)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;img src=&quot;resources/by-sa_petit.png&quot; width=&quot;118&quot; height=&quot;41&quot; /&gt; &lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td&gt;&lt;b&gt; Reconocimiento - CompartirIgual (by-sa)&lt;/b&gt;:
+			Se permite el uso comercial de la obra y de las posibles obras
+			derivadas, la distribución de las cuales se debe hacer con una licencia
+			igual a la que regula la obra original. (&lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/es/&quot; target=&quot;_blank&quot;&gt;http://creativecommons.org/licenses/by-sa/3.0/es/&lt;/a&gt;)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt; &lt;img src=&quot;resources/by-nd_petit.png&quot; width=&quot;118&quot; height=&quot;41&quot; /&gt;&lt;/td&gt;
+			&lt;td&gt;&lt;b&gt; Reconocimiento - SinObraDerivada (by-nd)&lt;/b&gt;: Se permite el uso comercial de la obra pero no la generación de obras derivadas. &lt;br /&gt;
+			&lt;a href=&quot;http://formacion.educa.madrid.org/file.php/19/moddata/resource/7425/.missingURL&quot; target=&quot;_blank&quot;&gt;
+			(http://creativecommons.org/licenses/by-nd/3.0/es/&lt;/a&gt;)&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id12&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta12_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;br /&gt;
+En este vídeo se explica muy bien las licencias Creative Commons&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ta12_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ta12_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;div width=&quot;425&quot; height=&quot;344&quot; align=&quot;center&quot;&gt;
+&lt;div name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/OUo3KMkOETY&amp;amp;hl=es&amp;amp;fs=1&quot;&gt;
+&lt;/div&gt;
+&lt;div name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;
+&lt;/div&gt;
+&lt;div name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;
+&lt;/div&gt;
+&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;
+	&lt;param name=&quot;width&quot; value=&quot;425&quot; /&gt;
+	&lt;param name=&quot;height&quot; value=&quot;344&quot; /&gt;
+	&lt;param name=&quot;allowfullscreen&quot; value=&quot;true&quot; /&gt;
+	&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;
+	&lt;param name=&quot;src&quot; value=&quot;http://www.youtube.com/v/OUo3KMkOETY&amp;amp;hl=es&amp;amp;fs=1&quot; /&gt;
+	&lt;embed type=&quot;application/x-shockwave-flash&quot; width=&quot;425&quot; height=&quot;344&quot; allowfullscreen=&quot;true&quot; allowscriptaccess=&quot;always&quot; src=&quot;http://www.youtube.com/v/OUo3KMkOETY&amp;amp;hl=es&amp;amp;fs=1&quot;&gt;&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/div&gt;
+&lt;div width=&quot;425&quot; height=&quot;344&quot; align=&quot;center&quot;&gt;
+ 
+&lt;/div&gt;
+&lt;div width=&quot;425&quot; height=&quot;344&quot; align=&quot;center&quot;&gt;
+&lt;/div&gt;
+&lt;div width=&quot;425&quot; height=&quot;344&quot; align=&quot;center&quot;&gt;
+&lt;hr /&gt;
+&lt;div align=&quot;justify&quot;&gt;
+&lt;i&gt;&lt;b&gt;Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por: &lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&amp;quot;José Cuerva Moreno&amp;quot;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0pt&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;br /&gt;
+Departamento de TIC.
+&lt;br /&gt;
+&lt;b&gt;CRIF &amp;quot;Las Acacias&amp;quot;.&lt;/b&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="239"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.10"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="17">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="nd.large_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/nd.large_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="5714db3559e9c36d756c39b99d8a60a3"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="240"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.11"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="18">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="by-nc-sa.eu_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/by-nc-sa.eu_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="3ed8b7f9676e51ae330aaa315f5757c7"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="241"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.12"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="19">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="sa.large_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/sa.large_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="8d8e2ca5758e047d89514a0c088a127c"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="242"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.13"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="20">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="by-nc.eu_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/by-nc.eu_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="aeb858580fca811b0aab91c2dd61be38"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="245"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.14"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="21">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="by.large_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/by.large_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="7d8e499e456d4f2c15ebac8e2687425a"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="246"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.15"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="22">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="by-nc-nd.eu_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/by-nc-nd.eu_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="2e702a21056f5232de3f3ad89b6b7424"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="248"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.16"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="23">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="by-sa_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/by-sa_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="a9ff5566dfd350148c1e9ac2e7b59f32"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="250"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.17"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="24">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="by_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/by_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="cd05ce264dfc43232fd6ca1885a756f1"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="251"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.18"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="25">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="by-nd_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/by-nd_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="9f540006bcb78b74156dd3596acd5beb"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="252"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="4_1.19"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="26">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="15"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="nc-eu.large_petit.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/nc-eu.large_petit.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="87111ffd238f5a552649f920638e9509"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="16"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+               </list>
+               <string role="key" value="idevice"></string>
+               <reference key="16"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="20"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="14"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="17"></reference>
+            <reference key="18"></reference>
+            <reference key="19"></reference>
+            <reference key="20"></reference>
+            <reference key="21"></reference>
+            <reference key="22"></reference>
+            <reference key="23"></reference>
+            <reference key="24"></reference>
+            <reference key="25"></reference>
+            <reference key="26"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Todo%20lo%20que%20siempre%20quiso%20saber%20sobre%20las%20licencias%20CC%20y%20nadie%20le%20explic%C3%B3:Tipos%20de%20licencias%20Creative%20Commons"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="29">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Cómo elegir una licencia CC para publicar contenidos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="27">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="28">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="27"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id16&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta16_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+Si creas un contenido o un recurso
+educativo y lo publicas en la Web, la ley de propiedad intelectual
+reconoce tus derechos de autor aunque no lo menciones expresamente.
+Es decir, que tu trabajo tiene &amp;quot;todos los derechos reservados&amp;quot;,
+pero si quieres que tu trabajo sea utilizado por otros profesores
+bajo ciertas condiciones,  &amp;quot;algunos derechos reservados&amp;quot;, entonces
+tienes que elegir una de las seis licencia CC que existen y publicar
+tu trabajo bajo esa licencia.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id18&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta18_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+Para escoger una licencia para tu trabajo, hay que ir al sitio web de Creative Commons España (&lt;a href=&quot;http://es.creativecommons.org/&quot; target=&quot;_blank&quot;&gt;http://es.creativecommons.org/&lt;/a&gt;) y hacer clic en Publica con CC.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;resources/PublicaCC.png&quot; width=&quot;802&quot; height=&quot;190&quot; /&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id19&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta19_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+Rellena los campos y haga clic en &amp;quot;Escoja una licencia&amp;quot;
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;resources/licencia_1.png&quot; width=&quot;585&quot; height=&quot;668&quot; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id20&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta20_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+Esta es la licencia que se ha elegido, Creative Commons nos proporciona el texto HTML para incluir en nuestro sitio web.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;resources/licencia_2.png&quot; width=&quot;597&quot; height=&quot;552&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+El texto HTML, una vez incluido en un sitio web, se ve así:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p align=&quot;justify&quot;&gt;
+&lt;i&gt;&lt;b&gt;Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por: &lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&amp;quot;José Cuerva Moreno&amp;quot;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0pt&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;br /&gt;
+Departamento de TIC.
+&lt;br /&gt;
+&lt;b&gt;CRIF &amp;quot;Las Acacias&amp;quot;.&lt;/b&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="243"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="5_1.3"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="30">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="27"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="PublicaCC.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/PublicaCC.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="61e58a78632babe6ea86432b71749201"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="28"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="244"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="5_1.4"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="31">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="27"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="licencia_2.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/licencia_2.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="ce503fda99386895506de576cc117b0f"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="28"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+                <instance class="exe.engine.galleryidevice.GalleryImage">
+                 <dictionary>
+                  <string role="key" value="_caption"></string>
+                  <instance class="exe.engine.field.TextField">
+                   <dictionary>
+                    <string role="key" value="_id"></string>
+                    <int value="247"></int>
+                    <string role="key" value="_idevice"></string>
+                    <none></none>
+                    <string role="key" value="_instruc"></string>
+                    <string value=""></string>
+                    <string role="key" value="_name"></string>
+                    <string value=""></string>
+                    <string role="key" value="content"></string>
+                    <string value=""></string>
+                    <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                    <int value="4"></int>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_id"></string>
+                  <unicode value="5_1.5"></unicode>
+                  <string role="key" value="_imageResource"></string>
+                  <instance class="exe.engine.resource.Resource" reference="32">
+                   <dictionary>
+                    <string role="key" value="_idevice"></string>
+                    <reference key="27"></reference>
+                    <string role="key" value="_package"></string>
+                    <reference key="2"></reference>
+                    <string role="key" value="_storageName"></string>
+                    <string value="licencia_1.png"></string>
+                    <string role="key" value="_userName"></string>
+                    <string value="/tmp/tmp_zNRvN/licencia_1.png"></string>
+                    <string role="key" value="checksum"></string>
+                    <string value="3bc4bb4bb9efb42bcefcec5455a792db"></string>
+                    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                    <int value="2"></int>
+                    <string role="key" value="warningMsg"></string>
+                    <string value=""></string>
+                   </dictionary>
+                  </instance>
+                  <string role="key" value="_parent"></string>
+                  <reference key="28"></reference>
+                  <string role="key" value="_thumbnailResource"></string>
+                  <none></none>
+                  <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                  <int value="3"></int>
+                  <string role="key" value="makeThumbnail"></string>
+                  <bool value="0"></bool>
+                 </dictionary>
+                </instance>
+               </list>
+               <string role="key" value="idevice"></string>
+               <reference key="28"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="6"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="29"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="29"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list>
+            <reference key="30"></reference>
+            <reference key="31"></reference>
+            <reference key="32"></reference>
+           </list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Todo%20lo%20que%20siempre%20quiso%20saber%20sobre%20las%20licencias%20CC%20y%20nadie%20le%20explic%C3%B3:C%C3%B3mo%20elegir%20una%20licencia%20CC%20para%20publicar%20contenidos"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="35">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Usar contenidos creados por otros"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="33">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="34">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="33"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value=""></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="34"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="35"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="35"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="36">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="37">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="36"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id17&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta17_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+Cuando se usan
+contenidos, recursos o materiales que hay en Internet, hay que prestar atención a la propiedad
+intelectual, porque no todo lo que existe en Internet se puede
+utilizar libremente para publicarlo en la Web. 
+&lt;/p&gt;
+&lt;p&gt;
+Si los contenidos que vamos a utilizar han sido producidos por
+nosotros, no hay ningún problema. Si son contenidos que hemos buscado
+en Internet, hay que tener
+cuidado, porque estos contenidos pueden tener dos tipos de licencias:
+&lt;b&gt;todos los derechos reservados&lt;/b&gt; o &lt;b&gt;algunos derechos
+reservados&lt;/b&gt;. Los contenidos producidos con &lt;b&gt;copyright&lt;/b&gt;, todos
+los derechos reservados, no los podemos utilizar libremente para
+publicarlos en un sitio web. Sin embargo, los contenidos compartidos
+con licencia &lt;b&gt;Creative Commons&lt;/b&gt;, algunos derechos reservados, se
+pueden utilizar bajo las condiciones que autoriza la licencia CC que
+el autor ha establecido para el contenido.  
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id0&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta0_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+En esta
+presentación del profesor Antonio González se explica muy bien los
+pasos que debemos dar para usar contenidos educativos:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&quot; id=&quot;prezi_pbs84joh7xep&quot; name=&quot;prezi_pbs84joh7xep&quot; width=&quot;550&quot; height=&quot;400&quot;&gt;
+	&lt;param name=&quot;id&quot; value=&quot;prezi_pbs84joh7xep&quot; /&gt;
+	&lt;param name=&quot;name&quot; value=&quot;prezi_pbs84joh7xep&quot; /&gt;
+	&lt;param name=&quot;width&quot; value=&quot;550&quot; /&gt;
+	&lt;param name=&quot;height&quot; value=&quot;400&quot; /&gt;
+	&lt;param name=&quot;bgcolor&quot; value=&quot;#ffffff&quot; /&gt;
+	&lt;param name=&quot;allowfullscreen&quot; value=&quot;true&quot; /&gt;
+	&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;
+	&lt;param name=&quot;flashvars&quot; value=&quot;prezi_id=pbs84joh7xep&amp;amp;lock_to_path=1&amp;amp;color=ffffff&amp;amp;autoplay=no&quot; /&gt;
+	&lt;param name=&quot;src&quot; value=&quot;http://prezi.com/bin/preziloader.swf&quot; /&gt;
+	&lt;embed type=&quot;application/x-shockwave-flash&quot; id=&quot;prezi_pbs84joh7xep&quot; name=&quot;prezi_pbs84joh7xep&quot; width=&quot;550&quot; height=&quot;400&quot; bgcolor=&quot;#ffffff&quot; allowfullscreen=&quot;true&quot; allowscriptaccess=&quot;always&quot; flashvars=&quot;prezi_id=pbs84joh7xep&amp;amp;lock_to_path=1&amp;amp;color=ffffff&amp;amp;autoplay=no&quot; src=&quot;http://prezi.com/bin/preziloader.swf&quot;&gt;&lt;/embed&gt;
+&lt;/object&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="37"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="35"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="35"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.genericidevice.GenericIdevice" reference="38">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Actividad"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="Universidad de Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="Una actividad puede ser definida como una tarea o conjunto de tareas que un estudiante debe completar. Provee una declaración clara de la tarea y considera cualquier condicion que pueda ayudar o impedir al estudiante en el funcionamiento de la tarea."></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="class_"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+           <int value="11"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="39">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="29_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="38"></reference>
+              <string role="key" value="_instruc"></string>
+              <unicode value="Describir las tareas que los estudiantes deben terminar"></unicode>
+              <string role="key" value="_name"></string>
+              <unicode value="Actividad"></unicode>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="buttonCaption"></string>
+              <string value=""></string>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="
+&lt;p&gt;
+En este artículo del profesor Aníbal de la Torre: &lt;a href=&quot;http://www.adelat.org/index.php?title=derechos_de_autor_copyright_y_creative_c&amp;amp;more=1&amp;amp;c=1&amp;amp;tb=1&amp;amp;pb=1&quot;&gt;Derechos de autor: Copyright y Creative Commons&lt;/a&gt; se responde a muchas de las preguntas que nos podemos hacer sobre las licencias CC en dos casos concretos: &lt;b&gt;Usando contenidos&lt;/b&gt; y &lt;b&gt;produciendo contenidos&lt;/b&gt;. Este articulo enlaza directamente con  unas FAQ que dan respuesta a muchas preguntas: &lt;a href=&quot;http://adelat.org/media/docum/libre/&quot; target=&quot;_blank&quot;&gt;http://adelat.org/media/docum/libre/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p align=&quot;justify&quot;&gt;
+&lt;i&gt;&lt;b&gt;Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por: &lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&amp;quot;José Cuerva Moreno&amp;quot;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0pt&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;br /&gt;
+Departamento de TIC.
+&lt;br /&gt;
+&lt;b&gt;CRIF &amp;quot;Las Acacias&amp;quot;.&lt;/b&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;a href=&quot;http://adelat.org/media/docum/libre/&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
+"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="39"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="35"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="parentNode"></string>
+           <reference key="35"></reference>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Todo%20lo%20que%20siempre%20quiso%20saber%20sobre%20las%20licencias%20CC%20y%20nadie%20le%20explic%C3%B3:Usar%20contenidos%20creados%20por%20otros"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="42">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Cómo buscar imágenes con licencia CC"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="40">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="41">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="1"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="40"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="buttonCaption"></string>
+             <string value=""></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id24&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta24_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;font size=&quot;4&quot;&gt;Flickr proporciona diferentes herramientas de búsqueda:&lt;/font&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Por etiquetas&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/tags/&quot;&gt;http://www.flickr.com/photos/tags/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;Las más interesantes&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.flickr.com/explore/interesting/&quot;&gt;http://www.flickr.com/explore/interesting/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Patrimonio público. Fotos de instituciones que las han liberado
+sin restricciones de uso:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.flickr.com/commons&quot;&gt;http://www.flickr.com/commons&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;font size=&quot;4&quot;&gt;Aplicaciones externas&lt;/font&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Por derechos de autor
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://flickrcc.bluemountains.net/&quot;&gt;http://flickrcc.bluemountains.net/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://johnjohnston.name/flickrCC/&quot;&gt;http://johnjohnston.name/flickrCC/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.compfight.com/&quot;&gt;http://www.compfight.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.flickriver.com/&quot;&gt;http://www.flickriver.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.flickrgrab.com/&quot;&gt;http://www.flickrgrab.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.panimages.org/&quot;&gt;http://www.panimages.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Por colores
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://labs.ideeinc.com/multicolr/#colors=8dba4c&quot;&gt;http://labs.ideeinc.com/multicolr/#colors=8dba4c&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://krazydad.com/colrpickr/&quot;&gt;http://krazydad.com/colrpickr/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Por etiquetas
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://taggalaxy.de/&quot;&gt;http://taggalaxy.de/&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id25&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta25_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+Aunque Flickr es un magnifico banco de imágenes, no es el único.
+A continuación se comentan otros bancos de imágenes que pueden
+ser útiles.
+&lt;/p&gt;
+&lt;p&gt;
+La profesora de tecnología María Loureiro ha realizado una
+recopilación de bancos de imágenes para la asignatura de tecnología
+en su blog &lt;a href=&quot;http://www.tecnoloxia.org/principal/?p=141&quot;&gt;http://www.tecnoloxia.org/principal/?p=141&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id26&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta26_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+&lt;b&gt;Imágenes de dominio público&lt;/b&gt;: 
+&lt;/p&gt;
+&lt;p&gt;
+En el articulo de la Wikipedia: &lt;i&gt;Public Domain image resources&lt;/i&gt;
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources&quot;&gt;http://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources&lt;/a&gt;),
+se recopilan un gran cantidad de enlaces a sitios web donde encontrar
+imágenes, fotografías y logos de dominio público que podemos usar
+libremente en nuestros proyectos educativos, bien porque ha expirado
+el &lt;i&gt;copyright&lt;/i&gt; o porque tienen licencia Creative Commons.
+&lt;/p&gt;
+&lt;p&gt;
+En la página de Creative Commons hay un buscador de fotografías,
+vídeos y música con licencia CC
+(&lt;a href=&quot;http://search.creativecommons.org/&quot;&gt;http://search.creativecommons.org/&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;a href=&quot;http://commons.wikimedia.org/wiki/Portada&quot;&gt;Wikimedia
+Commons&lt;/a&gt;&lt;/b&gt;. (&lt;a href=&quot;http://commons.wikimedia.org/wiki/Portada&quot;&gt;http://commons.wikimedia.org/wiki/Portada&lt;/a&gt;)
+Mediateca que contiene millones de archivos multimeda libres
+(fotografías, vídeos, animaciones, música...) clasificados por
+tema, formato, autor, tipo de licencia y fuente. Los archivos se
+pueden utilizar y copiar respetando las condiciones que indican sus
+autores. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;NYPL Digital Gallery
+&lt;/b&gt;(&lt;b&gt;&lt;a href=&quot;http://digitalgallery.nypl.org/nypldigital/index.cfm&quot;&gt;http://digitalgallery.nypl.org/nypldigital/index.cfm&lt;/a&gt;&lt;/b&gt;)
+ofrece acceso libre y gratuito a más de 600.000 imágenes
+digitalizadas de la Biblioteca Pública de Nueva York, incluyendo
+manuscritos, mapas históricos, carteles antiguos, grabados,
+fotografías y mucho más.&lt;b&gt;  &lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;b&gt;Bioscapes: &lt;/b&gt;&lt;/b&gt;(&lt;b&gt;
+&lt;a href=&quot;http://www.olympusbioscapes.com/gallery/2008/&quot;&gt;http://www.olympusbioscapes.com/gallery/2008/&lt;/a&gt;&lt;/b&gt;)
+Galería de fotografías del concurso: International Olympus
+BioScapes Digital Imaging Competition, patrocinado por la compañía
+fotográfica Olympus.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;FreeTextIdevice&quot; id=&quot;id28&quot;&gt;
+&lt;div class=&quot;iDevice emphasis0&quot;&gt;
+&lt;div id=&quot;ta28_1&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+&lt;b&gt;Sciencepics&lt;/b&gt;:
+(http://www.sciencepics.org/) Es una base de datos con miles de
+imágenes relacionadas con la Ciencia y la Investigación que se
+realiza en Andalucía. Este banco de datos ha sido realizado por el
+Programa de Divulgación Científica de Andalucía, de la Consejería
+de Innovación, Ciencia y Empresa; y coordinado por el Parque de las
+Ciencias.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;SmartPlanet&lt;/b&gt;:
+(&lt;a href=&quot;http://www.smartplanet.es/galeria.php&quot;&gt;http://www.smartplanet.es/galeria.php&lt;/a&gt;)
+Una galería de imágenes de la Ciencia recopilada por E. Punset en
+su blog.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.catedu.es/arasaac/&quot; target=&quot;_blank&quot;&gt;PICTOGRAMAS ARASAAC&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Se pueden descargar en paquetes desde el Portal Aragonés de la
+Comunicación Aumentativa y Alternativa.
+Los pictogramas los puedes descargar por paquetes tando en color, como
+en blanco y negro. Cada cierto tiempo se actualizan, agregando algunos
+más, por lo que debes mirar de vez en cuando para comprobar si hay
+nuevos paquetes.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt;&lt;a href=&quot;http://www.openclipart.org/&quot; target=&quot;_blank&quot;&gt;OPEN CLIP ART LIBRARY&lt;/a&gt;&lt;/b&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;b&gt; &lt;/b&gt;Se trata de un proyecto colaborativo que pretende crear un
+archivo de imágenes prediseñadas que se puede utilizar libremente. Se
+puede buscar la imagen que necesites en el portal &lt;a href=&quot;http://www.openclipart.org/&quot; target=&quot;_blank&quot;&gt;openclipart.org&lt;/a&gt; o descargar los distintos paquetes &lt;a href=&quot;http://download.openclipart.org/downloads/&quot; target=&quot;_blank&quot;&gt;AQUÍ&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p align=&quot;justify&quot;&gt;
+&lt;i&gt;&lt;b&gt;Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por: &lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&amp;quot;José Cuerva Moreno&amp;quot;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0pt&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;br /&gt;
+Departamento de TIC.
+&lt;br /&gt;
+&lt;b&gt;CRIF &amp;quot;Las Acacias&amp;quot;.&lt;/b&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="41"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="42"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="parentNode"></string>
+           <reference key="42"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Todo%20lo%20que%20siempre%20quiso%20saber%20sobre%20las%20licencias%20CC%20y%20nadie%20le%20explic%C3%B3:C%C3%B3mo%20buscar%20im%C3%A1genes%20con%20licencia%20CC"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="45">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Para saber más"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.genericidevice.GenericIdevice" reference="43">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Para saber más"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="Universidad de Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="Una actividad puede ser definida como una tarea o conjunto de tareas que un estudiante debe completar. Provee una declaración clara de la tarea y considera cualquier condicion que pueda ayudar o impedir al estudiante en el funcionamiento de la tarea."></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="class_"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.genericidevice.GenericIdevice.persistenceVersion"></string>
+           <int value="11"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="44">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="31_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="43"></reference>
+              <string role="key" value="_instruc"></string>
+              <unicode value="Describir las tareas que los estudiantes deben terminar"></unicode>
+              <string role="key" value="_name"></string>
+              <unicode value="Actividad"></unicode>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
+              <string role="key" value="buttonCaption"></string>
+              <string value=""></string>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;span class=&quot;iDeviceTitle&quot;&gt;&lt;/span&gt;
+Para saber más sobre licencias CC visita los siguientes enlaces:
+&lt;div id=&quot;ta5_35_26&quot; class=&quot;block&quot; style=&quot;display: block&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.adelat.org/index.php?title=uso_de_contenidos_de_internet_copyright_&amp;amp;more=1&amp;amp;c=1&amp;amp;tb=1&amp;amp;pb=1&quot;&gt;Uso de contenidos de Internet, copyright, creative commons, ...&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://adelat.org/media/docum/libre/&quot;&gt;Derechos de autor: Copyright y Creative Commons&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;quot;&lt;a href=&quot;http://www.uoc.edu/uocpapers/dt/esp/xalabarder.html&quot;&gt;Las licencias Creative Commons: ¿una alternativa al copyright?&lt;/a&gt;&amp;quot; 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p align=&quot;justify&quot;&gt;
+&lt;i&gt;&lt;b&gt;Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por: &lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&amp;quot;José Cuerva Moreno&amp;quot;
+&lt;/div&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;&lt;img src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png&quot; alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0pt&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+Esta obra está bajo una &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/es/&quot; rel=&quot;license&quot;&gt;licencia de Creative Commons&lt;/a&gt;.
+&lt;br /&gt;
+Departamento de TIC.
+&lt;br /&gt;
+&lt;b&gt;CRIF &amp;quot;Las Acacias&amp;quot;.&lt;/b&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;/div&gt;
+"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list></list>
+                <string role="key" value="idevice"></string>
+                <reference key="44"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="0"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="45"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="icon"></string>
+           <unicode value="activity"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="10"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
+           <string role="key" value="parentNode"></string>
+           <reference key="45"></reference>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="2"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="website"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Todo%20lo%20que%20siempre%20quiso%20saber%20sobre%20las%20licencias%20CC%20y%20nadie%20le%20explic%C3%B3:Para%20saber%20m%C3%A1s"></string>
+        <string role="key" value="parent"></string>
+        <reference key="4"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="29"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="35"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="42"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="45"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value=""></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="35"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="16"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <unicode value="Tomado de los cursos en línea de la Consejería de Educación de la Comunidad de Madrid. elaborado originalmente por:
+&quot;José Cuerva Moreno&quot;
+Creative Commons License
+Esta obra está bajo una licencia de Creative Commons.
+Departamento de TIC.
+CRIF &quot;Las Acacias&quot;.
+"></unicode>
+  <string role="key" value="isChanged"></string>
+  <int value="1"></int>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="None"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="dfb98b6f-a7bf-4220-a006-843d8319a286"></string>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <string value="dfb98b6f-a7bf-4220-a006-843d8319a286"></string>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="None"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="release"></string>
+  <string value="2.9"></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="21ce5aa9dec68d1bb2daa34fb80d2984"></string>
+   <list>
+    <reference key="5"></reference>
+   </list>
+   <string role="key" value="2e702a21056f5232de3f3ad89b6b7424"></string>
+   <list>
+    <reference key="22"></reference>
+   </list>
+   <string role="key" value="3bc4bb4bb9efb42bcefcec5455a792db"></string>
+   <list>
+    <reference key="32"></reference>
+   </list>
+   <string role="key" value="3ed8b7f9676e51ae330aaa315f5757c7"></string>
+   <list>
+    <reference key="18"></reference>
+   </list>
+   <string role="key" value="5714db3559e9c36d756c39b99d8a60a3"></string>
+   <list>
+    <reference key="17"></reference>
+   </list>
+   <string role="key" value="61e58a78632babe6ea86432b71749201"></string>
+   <list>
+    <reference key="30"></reference>
+   </list>
+   <string role="key" value="7d8e499e456d4f2c15ebac8e2687425a"></string>
+   <list>
+    <reference key="21"></reference>
+   </list>
+   <string role="key" value="87111ffd238f5a552649f920638e9509"></string>
+   <list>
+    <reference key="26"></reference>
+   </list>
+   <string role="key" value="8d8e2ca5758e047d89514a0c088a127c"></string>
+   <list>
+    <reference key="19"></reference>
+   </list>
+   <string role="key" value="9f540006bcb78b74156dd3596acd5beb"></string>
+   <list>
+    <reference key="25"></reference>
+   </list>
+   <string role="key" value="a9ff5566dfd350148c1e9ac2e7b59f32"></string>
+   <list>
+    <reference key="23"></reference>
+   </list>
+   <string role="key" value="aeb858580fca811b0aab91c2dd61be38"></string>
+   <list>
+    <reference key="20"></reference>
+   </list>
+   <string role="key" value="cd05ce264dfc43232fd6ca1885a756f1"></string>
+   <list>
+    <reference key="24"></reference>
+   </list>
+   <string role="key" value="ce503fda99386895506de576cc117b0f"></string>
+   <list>
+    <reference key="31"></reference>
+   </list>
+   <string role="key" value="ec46f402f3683da3c8d47c8e3e1d9d52"></string>
+   <list>
+    <reference key="11"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="4"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
